@@ -1,0 +1,65 @@
+# =========================
+# Arquivos do sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Configurações de editor
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Dependências Node
+# =========================
+node_modules/
+
+# =========================
+# Builds / Distribuição
+# =========================
+dist/
+build/
+out/
+
+# =========================
+# Variáveis de ambiente
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Testes / Coverage
+# =========================
+coverage/
+*.lcov
+
+# =========================
+# Cache
+# =========================
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+
+# =========================
+# Outras ferramentas
+# =========================
+# TypeScript
+*.tsbuildinfo
+
+# Linux / Mac
+*.pid
+*.seed
+*.pid.lock
